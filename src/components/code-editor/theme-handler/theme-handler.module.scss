@@ -1,0 +1,42 @@
+.ThemeHandler {
+
+}
+
+.handlerState{
+  width: 35px;
+  height: 20px;
+  border-radius: 40px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.whiteHandler{
+  background: #DDDDDD;
+}
+
+.blackHandler{
+  background: #5ABFDB;
+}
+
+.text{
+  margin-left: 14px;
+}
+
+.blackText{
+  color: #363636
+}
+
+.whiteText{
+  color: #fff
+}
+
+.circle{
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  border-radius: 40px;
+}
+
+.darkCircle{
+  margin-left: auto;
+}

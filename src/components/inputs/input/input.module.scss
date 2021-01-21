@@ -1,0 +1,166 @@
+$input-border-color: #C2C6CB;
+$input-border-color-active: $color-primary;
+$input-border-color-danger: $color-danger;
+
+$input-color-danger: $color-danger;
+
+.wrap {}
+
+.wrapInput {
+  position: relative;
+  
+  &:hover {
+    .fieldset {
+      border: solid 1px $input-border-color-active;
+    }
+  }
+}
+
+.input {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  color: #344050;
+  padding: 0.75em 1em;
+  height: 2.5em;
+  line-height: 1;
+  width: 100%;
+  
+  
+  // Setup apperance for [type="number] inputs
+  &[type="number"] {
+    -moz-appearance: textfield;
+    
+    // Hide Spinner in input number
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    // if controls needed
+    &.isVisibleControls {
+      //noinspection CssInvalidPropertyValue
+      -moz-appearance: number-input;
+      
+      &::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+        -webkit-appearance: inner-spin-button;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 15px;
+        height: 100%
+      }
+    }
+  }
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 200ms ease-out transform;
+  color: #AEB3B9;
+  font-size: inherit;
+  line-height: 1;
+  transform: translate(1em, 0.75em) scale(1);
+  transform-origin: top left;
+}
+
+.fieldset {
+  border: solid 1px #C2C6CB;
+  top: -5px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0 1em 0 calc(1em - 0.3125em);
+  overflow: hidden;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 4px;
+}
+
+.legendElement {
+  width: auto;
+  height: 11px;
+  display: block;
+  font-size: 0.85em;
+  max-width: 0.01px;
+  text-align: left;
+  visibility: hidden;
+  transition: max-width 50ms ease-out 50ms;
+}
+
+.legendInnerElement {
+  padding: 0 0.3125em;
+}
+
+.errorMessage {
+  margin-top: 10px;
+  font-size: 14px;
+  color: $input-color-danger
+}
+
+.focus {
+  .fieldset {
+    border: solid 1px $input-border-color-active;
+  }
+}
+
+.active {
+  .label {
+    transform: translate(1em, -50%) scale(0.85);
+  }
+  
+  .legendElement {
+    max-width: 10000px;
+  }
+}
+
+.error {
+  .label {
+    color: $input-color-danger;
+  }
+  
+  .fieldset {
+    border: solid 1px $input-color-danger;
+  }
+}
+
+@mixin size($height, $font-size) {
+  font-size: $font-size;
+  $_offset_top: ($height - $font-size) / 2;
+  
+  input {
+    padding: $_offset_top 1em;
+    height: $height;
+  }
+  
+  &:not(.active) .label {
+    transform: translate(1em, $_offset_top) scale(1);
+  }
+}
+
+.size_sm {
+  @include size(40px, 14px);
+}
+
+.size_md {
+  @include size(50px, 16px);
+}
+
+.size_lg {
+  @include size(60px, 14px);
+}
+
+.labelUpper {
+  .label {
+    transform: translate(1em, -50%) scale(0.85) !important;
+  }
+  
+  .legendElement {
+    max-width: 10000px;
+  }
+}

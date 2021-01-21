@@ -1,0 +1,16 @@
+$input-color-danger: $color-danger;
+
+.wrap {
+  width: 100%;
+}
+
+.errorMessage {
+  margin-top: 10px;
+  font-size: 14px;
+  color: $input-color-danger
+}
+
+.label {
+  color: #AEB3B9;
+  padding-bottom: 4px;
+}

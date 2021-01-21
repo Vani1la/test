@@ -1,0 +1,93 @@
+.Mquestionnaire {
+
+}
+
+.content {
+  min-height: 622px;
+  background: #FFFFFF;
+  box-shadow: 41px 36px 67px -5px rgba(192, 192, 205, 0.8);
+  border-radius: 11px;
+  margin-top: 27px;
+  padding: 50px 30px 10px 30px
+
+}
+
+.name {
+  margin-left: 28px;
+  color: #2C295D
+}
+
+.partition {
+  height: 1px;
+  background: #C1C1C1;
+  margin-top: 17px;
+}
+
+.input {
+  width: 246px;
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 15px;
+}
+
+.partitionPass {
+  margin-bottom: 15px;
+  margin-left: 27px;
+}
+
+.titlePass {
+  margin-top: 45px;
+}
+
+.passForm {
+  margin-top: 12px;
+  width: 88%;
+}
+
+.btn {
+  width: 246px;
+  margin-top: 32px;
+}
+
+.textTitlePass {
+  width: 215px;
+}
+
+@media(max-width: 1200px){
+  .textTitlePass{
+    width: 340px;
+  }
+  .passForm {
+    width: 91%;
+  }
+}
+
+@media (max-width: 768px) {
+  .avatar {
+    width: 65px;
+  }
+  .content {
+    height: 680px;
+  }
+  .input {
+    margin-top: 14px;
+  }
+  .passForm {
+    width: 100%;
+  }
+  .name {
+    margin-left: 20px;
+  }
+  .btn {
+    margin-top: 14px;
+  }
+  .passForm {
+    margin-top: 0;
+  }
+  .titlePass {
+    margin-top: 30px;
+  }
+}
+

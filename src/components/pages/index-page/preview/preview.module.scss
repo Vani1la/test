@@ -1,0 +1,97 @@
+.Preview {
+  background-color: #FBFBFC;
+}
+
+.content {
+  height: 603px;
+  padding-top: 62px;
+  overflow: hidden;
+
+  @media (max-width: 768px) {
+    height: 535px;
+  }
+
+  @media (max-width: 480px){
+    height: 495px;
+  }
+}
+
+.points {
+  bottom: 78px;
+  right: 28px;
+  width: 251px;
+  height: 251px;
+
+  @media(max-width: 768px){
+    right: 0;
+    bottom: 35px
+  }
+
+  @media (max-width: 480px){
+    bottom: 55px
+  }
+}
+
+.whitePosts {
+  left: 43px;
+  bottom: 0px;
+
+  @media (max-width: 480px){
+    left: 118px;
+  }
+}
+
+.bluePosts {
+  top: -15px;
+  right: 10px;
+  z-index: 10;
+
+  @media(max-width: 768px){
+    right: 0;
+  }
+
+  @media (max-width: 480px){
+    top: 99px
+  }
+}
+
+.whitePost {
+  top: 133px;
+  right: 80px;
+
+  @media (max-width: 480px){
+    display: none;
+  }
+}
+
+.player {
+  height: 479px;
+  width: 100%;
+  max-width: 864px;
+  margin: auto;
+  z-index: 11;
+
+  @media(max-width: 768px){
+    height: 382px;
+    max-width: 690px;
+  }
+  
+  @media (max-width: 480px) {
+    height: 202px;
+    margin-top: 22%;
+  }
+}
+
+.stick {
+  right: 25px;
+  top: 150px;
+
+  @media(max-width: 768px){
+    right: 0;
+  }
+
+  @media (max-width: 480px){
+    top: 55px
+  }
+}
+

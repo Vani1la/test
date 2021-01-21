@@ -1,0 +1,40 @@
+.JsonScreen {
+  font-size: 14px;
+  line-height: 25px;
+  width: 220px;
+}
+
+.container {
+  width: 522px;
+  height: 322px;
+  background: #fff;
+  border-radius: 11px;
+  padding: 0 17px;
+  border: 2px solid #E4E2EB
+}
+
+.json {
+  margin-left: 9px;
+}
+
+.form {
+  display: block;
+  margin-left: 20px;
+}
+
+.input {
+  width: 246px;
+  height: 40px;
+  background: #FBFBFB;
+  border: 0.5px solid #C1C1C1;
+  border-radius: 3px;
+  padding-left: 10px;;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.fakeSpan {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1;
+}

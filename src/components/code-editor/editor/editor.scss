@@ -1,0 +1,91 @@
+.theme {
+  &-dark {
+    .editor {
+      background-color: #1D1E22;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .editor__code {
+      color: red;
+    }
+
+    .editor__lineCounter {
+      color: #5c5f6b;
+    }
+
+    .editor__codeStyle_component {
+      color: #4fe7c4;
+    }
+
+    .editor__codeStyle_text {
+      color: #8D8D8D;
+    }
+
+    .editor__codeStyle_label {
+      color: #FFFFFF;
+    }
+
+    .editor__codeStyle_argument {
+      color: #8382C9;
+    }
+
+    .editor__codeStyle_value {
+      color: #FFD500;
+    }
+
+    .editor__codeStyle_symbol {
+      color: #0081F1;
+    }
+
+    .editor__codeStyle_required {
+      color: red;
+    }
+  }
+
+  &-bright {
+    .editor {
+      background-color: #FBFBFC;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .editor__code {
+      color: red;
+    }
+
+    .editor__codeStyle_text {
+      color: #8D8D8D;
+    }
+
+    .editor__codeStyle_component {
+      color: #4FB1C4;
+    }
+
+    .editor__codeStyle_label {
+      color: #8D8D8D;
+    }
+
+    .editor__codeStyle_argument {
+      color: #646399;
+    }
+
+    .editor__codeStyle_value {
+      color: #D1AE00;
+    }
+
+    .editor__codeStyle_symbol {
+      color: #005CAD;
+    }
+
+    .editor__codeStyle_required {
+      color: red;
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,105 @@
+.VideoPlayer {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+
+  &:hover .pause {
+    display: block;
+  }
+
+  &:hover .return {
+    display: block;
+  }
+}
+
+.player {
+  border-radius: 12px;
+}
+
+.bigPlayBtn {
+  display: none;
+  visibility: hidden;
+}
+
+.playBlock {
+  position: absolute;
+  cursor: pointer;
+  width: 105px;
+  height: 105px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @media(max-width: 850px) {
+    width: 84px;
+    height: 84px;
+  }
+  @media(max-width: 480px) {
+    width: 60px;
+    height: 55px;
+  }
+}
+
+.manadgerBlock {
+  position: absolute;
+  bottom: 45%;
+  left: 44%;
+  width: 110px;
+}
+
+.pause {
+  cursor: pointer;
+  display: none;
+}
+
+.return {
+  cursor: pointer;
+  display: none;
+}
+
+.partition {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  opacity: 0;
+}
+
+.title{
+  font-size: 42px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+
+  @media(max-width: 768px){
+    font-size: 30px;
+  }
+
+  @media(max-width: 480px){
+    font-size: 18px;
+  }
+}
+
+.subtitle{
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+
+  @media(max-width: 768px){
+    font-size: 16px;
+  }
+
+  @media(max-width: 480px){
+    font-size: 12px;
+  }
+}
+
+.text{
+  top: 73%;
+  left: 50%;
+  transform: translateX(-50%);
+}

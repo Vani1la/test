@@ -1,0 +1,36 @@
+.Features {
+  background: #fff;
+  width: 100%;
+  min-height: 561px;
+}
+
+.vector {
+  left: 0px;
+
+  @media(max-width: 400px) {
+    top: 55px
+  }
+}
+
+.mainTextColor {
+  color: #2C295D
+}
+
+.features {
+  margin: 0 auto;
+
+  @media(max-width: 400px){
+    margin-top: 35px;
+  }
+}
+
+.title {
+  @media(max-width: 400px) {
+    width: 166px;
+    margin: 0 auto;
+  }
+}
+
+.content {
+  padding-bottom: 80px;
+}

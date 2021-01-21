@@ -1,0 +1,71 @@
+.MyFolders {
+  margin: 34px 0 0 2vw
+}
+
+.content {
+  width: 72vw;
+  height: 667px;
+  background: #fff;
+  box-shadow: 24px 18px 54px -2px rgba(192, 192, 205, 0.3);
+  border-radius: 11px;
+  margin-top: 22px;
+  padding: 26px 19px;
+  padding-bottom: 51px;
+}
+
+.title {
+  color: #2C295D;
+  font-family: SF Pro Text;
+  font-size: 20px;
+}
+
+.formItem {
+  width: 100%;
+  border-bottom: 1px solid #F7F7F7;
+  padding: 11px 0 11px 0
+}
+
+.topPoints {
+  top: -26px;
+}
+
+.leftPoints {
+  left: 62vw;
+  top: 180px;
+}
+
+.botPoints {
+  bottom: 73px;
+  left: 62vw;
+}
+
+.mobileBtn{
+  display: none;
+}
+
+@media(max-width: 576px) {
+  .MyFolders {
+    margin: 34px 15px;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+  }
+
+  .mobileBtn{
+    display: block;
+    margin-top: 19px;
+  }
+
+  .botPoints{
+    bottom: 218px;
+    left: 117px;
+  }
+
+  .topPoints{
+    bottom: -112px;
+    left: -224px;
+    top: auto;
+  }
+}

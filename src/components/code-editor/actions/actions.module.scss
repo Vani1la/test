@@ -1,0 +1,14 @@
+.Actions {
+  position: absolute;
+  left: -3.5em;
+
+  &_hidden {
+    visibility: hidden;
+  }
+}
+
+.draggableIcon {
+  cursor: grab;
+  padding: 0px 10px 16px 10px;
+  user-select: none;
+}

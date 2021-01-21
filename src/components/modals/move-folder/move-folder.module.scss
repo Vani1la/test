@@ -1,0 +1,60 @@
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #363636;
+}
+
+.content {
+  height: 408px;
+  padding: 0
+}
+
+.division {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #DDDDDD;
+  left: 0;
+  top: 65px;
+}
+
+.closer {
+  transform: translate(-7px, 13px);
+  color: #9A99A2
+}
+
+.folderBlock{
+  color: #509AA6;
+  height: 35px;
+}
+
+.folderList{
+  margin-top: 30px;
+}
+
+.folderName{
+  margin-left: 9px;
+  margin-top: 2px;
+}
+
+.folderDarkBlock{
+  color: #2C295D
+}
+
+.newFolder{
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #5ABFDB;
+}
+
+.btn{
+  width: 130px;
+
+  &Right{
+    margin-right: -8px;
+  }
+
+  &Left{
+    margin-left: -5px;
+  }
+}

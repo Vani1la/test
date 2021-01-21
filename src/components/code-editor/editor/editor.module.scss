@@ -1,0 +1,59 @@
+.wrap {
+  min-width: 400px;
+  min-height: 20em;
+  overflow: visible;
+}
+
+.wrapActions {
+  position: relative;
+  width: 34px;
+}
+
+.lineCounter {
+  padding: 10px 5px 10px 10px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  min-width: 2em;
+}
+
+.code {
+  padding: 10px 5px;
+  position: relative;
+  margin: 0 2px;
+  cursor: text;
+  width: 100%;
+}
+
+.fakeSpan {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.rowLineCounter {
+  min-height: 20px;
+  line-height: 20px;
+  text-align: right;
+  position: absolute;
+}
+
+.darkHelper {
+  background-color: #50646A;
+}
+
+.brightHelper {
+  background-color: #E6E6E6;
+}
+
+.scroll {
+  background: #C4C4C4;
+  border-radius: 13px;
+}
+

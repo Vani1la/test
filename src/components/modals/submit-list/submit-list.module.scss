@@ -1,0 +1,44 @@
+.SubmitList {
+
+}
+
+.title{
+  font-weight: 600;
+  font-size: 22px;
+  color: #363636;
+}
+
+.closer{
+  transform: translateY(13px);
+  color: #9A99A2
+}
+
+.content{
+  height: 325px;
+}
+
+.division{
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #DDDDDD;
+  left: 0;
+  top: 60px;
+}
+
+.submitName{
+  color: #C1C1C1;
+}
+
+.sender{
+  color: #5ABFDB
+}
+
+.submitItem{
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+}
+.list{
+  margin-top: 35px;
+}

@@ -1,0 +1,69 @@
+.Folders {
+  height: calc(100vh - 45px);
+  width: 253px;
+  background: #fff;
+  border-right: 1px solid #EDEDED;
+}
+
+.folders{
+  margin-top: 25px;
+}
+
+.folder{
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  color: #2C295D;
+  background: #FAFAFA;
+  border-left: 2px solid #5ABFDB;
+  width: 100%;
+  padding: 25px 0 21px 20px
+}
+
+.folderIcon{
+  margin-top: -2px;
+}
+
+.newFolderBtn{
+  width: 160px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.newFolderBtnMobile{
+  display: none;
+}
+
+.mobileArrow{
+  display: none;
+}
+
+@media(max-width: 576px){
+  .Folders{
+    height: auto;
+    width: 100vw;
+    padding-bottom: 30px;
+  }
+
+  .folders{
+    margin: 0;
+  }
+
+  .newFolderBtn{
+    display: none;
+  }
+
+  .newFolderBtnMobile{
+    display: block;
+    margin: -13px 0 0 auto;
+  }
+
+  .folder{
+    padding: 17px 15px 5px 15px;;
+    border: none;
+  }
+
+  .mobileArrow{
+    display: block;
+  }
+}
